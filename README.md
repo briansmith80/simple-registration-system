@@ -4,7 +4,8 @@ Writing a registration system is a lot of work. You have to write code that vali
 
 In this tutorial, we will make a very simple registration system that doesn't require or store passwords at all! The result will be easy to modify and embed into an existing PHP website. Read on to find out how it works.
 
-###### The Idea
+## The Idea
+
 **Here is how our super simple registration system will work:**
 - There will be a combined login/registration form, where users will fill in their emails and hit submit;
 - Upon submission, if an email address is not found in the database, a new user record is created. A random token is generated and sent to the user via email as a clickable link that is only valid for 10 minutes;
